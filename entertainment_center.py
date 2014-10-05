@@ -24,6 +24,7 @@ jobs = media.Movie("Jobs",
 #jobs.show_trailer()
 
 movies = [toy_story, avatar, jobs]
-fresh_tomatoes.open_movies_page(movies)
+#fresh_tomatoes.open_movies_page(movies)
+print(media.Movie.VALID_RATINGS)
 
 
